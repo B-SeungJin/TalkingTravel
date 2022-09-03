@@ -53,14 +53,15 @@
       <div class="jumbotron p-4 p-md-5 text-white rounded bg-dark">
         <div class="col-md-10 px-0">
           <h2 class="display-4 mb-4">
-            <b>영어 회화와 함께 떠나는 랜선여행</b>
+            <b>유럽여행 더욱 알차게 보내는 법</b>
           </h2>
           <p class="lead my-3">
 
           </p>
           <p class="lead mb-2">
             {% if user_email != null %}
-            {{ user_email }} 이메일 주소로 구독중입니다.
+            {{ user_email }} 이메일 주소로 구독중입니다.&nbsp;
+            <a class="btn btn-light" href="/blog/logout" role="button">구독취소</a>
             {% else %}
             이메일을 남겨주시면, 새로운 여행 출발 시 메일로 송부드립니다 &nbsp;
             <form action="/blog/set_email" method="post">

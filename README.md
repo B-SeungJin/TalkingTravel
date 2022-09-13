@@ -1,4 +1,4 @@
-# TalkingTravel
+# TalkingTravel_Back
 ABTest기능 을 포함한 블로그 (Fullstack)
 
 ## 기능
